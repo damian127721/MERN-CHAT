@@ -17,7 +17,7 @@ import { set } from "mongoose";
 import axios from "axios";
 import "./styles.css";
 import ScrollableChat from "./ScrollableChat";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import animationData from "../animations/loading.json";
 
 import io from "socket.io-client";
