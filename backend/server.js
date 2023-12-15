@@ -22,10 +22,10 @@ app.use("/api/message", messageRoutes);
 
 const __dirname1 = path.resolve();
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname1, "/frontend/build")));
+  app.use(express.static(path.join(__dirname1, "/frontend-repair/build")));
 
   app.get("*", (req, res) => {
-    res.sendFile(__dirname1, "frontend", "build", "index.html");
+    res.sendFile(__dirname1, "frontend-repair", "build", "index.html");
   });
 } else {
   app.get("/", (req, res) => {
