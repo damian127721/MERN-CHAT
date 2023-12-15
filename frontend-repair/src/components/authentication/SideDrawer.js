@@ -28,8 +28,6 @@ import { useNavigate } from "react-router-dom";
 import ChatLoading from "../ChatLoading";
 import UserListItem from "../UserAvatar/UserListItem";
 import { getSender } from "../../config/ChatLogics";
-import { Effect } from "react-notification-badge";
-import NotificationBadge from "react-notification-badge/lib/components/NotificationBadge";
 
 const SideDrawer = () => {
   const [search, setSearch] = useState("");
