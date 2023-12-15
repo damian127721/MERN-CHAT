@@ -146,10 +146,6 @@ const SideDrawer = () => {
           <Menu>
             <MenuButton p={1}>
               <BellIcon fontSize="2xl" m={1} />
-              <NotificationBadge
-                count={notification.length}
-                effect={Effect.SCALE}
-              />
             </MenuButton>
             <MenuList pl={3}>
               {!notification.length && "No New Messages"}
